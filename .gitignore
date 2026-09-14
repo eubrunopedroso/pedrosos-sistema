@@ -1,0 +1,54 @@
+# =====================================================================
+# SEGURANCA — nunca comitar, em nenhuma hipotese
+# =====================================================================
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+*.crt
+*.cer
+credentials*
+*credentials.json
+client_secret*
+service-account*
+*.token
+.npmrc
+.netrc
+.aws/
+.ssh/
+secrets/
+*secret*
+*_secret*
+*apikey*
+*api_key*
+
+# =====================================================================
+# Depois que voce rodar /instalar, seu proprio negocio (cliente, preco,
+# CNPJ) entra nesses arquivos/pastas. Ficam de fora do controle de
+# versao por padrao -- so voce decide se e quando compartilhar isso.
+# =====================================================================
+clientes/
+meus-projetos/
+dados/
+
+# =====================================================================
+# Sistema, editores, dependencias, temporarios
+# =====================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+.next/
+.cache/
+*.log
+*.tmp
