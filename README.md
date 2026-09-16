@@ -36,6 +36,24 @@ skills, organização e jeito de trabalhar prontos, direto na pasta.
   npx skills add
   ```
 
+## Atualizar o sistema
+
+Quando sair melhoria (skill nova, correção, regra nova), você puxa por
+cima do que já tem, sem perder o que configurou:
+
+```bash
+git pull https://github.com/eubrunopedroso/pedrosos-sistema.git main
+```
+
+O endereço vai escrito no comando de propósito: você removeu o `origin`
+na instalação, então não existe mais um atalho apontando pra cá — e é
+assim que o seu conteúdo de negócio fica protegido de subir de volta.
+
+O que o `/instalar` escreveu (seu `obsidian-vault/` e o bloco do seu
+negócio no fim do `CLAUDE.md`) não é sobrescrito. Se o Git acusar
+conflito em algum arquivo que você editou à mão, ele mostra qual é e
+você escolhe o que fica.
+
 ## Extras (fora deste repositório)
 
 Se você comprou algum produto complementar (pack de carrossel, cofre de
