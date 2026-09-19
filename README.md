@@ -29,9 +29,9 @@ skills, organização e jeito de trabalhar prontos, direto na pasta.
   referência
 - **`scripts/gerar-imagem.js`** — gera foto via IA com fallback
   automático (Gemini → OpenAI → grátis), sem travar se faltar chave
-- **`skills-lock.json`** — manifesto de ~35 skills de terceiro
-  (animação/interface, Vercel/React, geração de site/3D, geração de
-  mídia via Higgsfield). Instalar com:
+- **`skills-lock.json`** — manifesto de 18 skills de terceiro
+  (animação/interface, React/design, geração de mídia via Higgsfield).
+  Instalar com:
   ```bash
   npx skills add
   ```
